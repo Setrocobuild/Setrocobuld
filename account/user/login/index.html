@@ -1,0 +1,778 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '727662c35d00a3eb50419b01728aafa3bc294937';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://github.com/Setrocobuild/Setrocobuld.git/https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Setroco Build |  Login </title>
+    
+
+    <meta name="theme-color" content="#181818">
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../../static/app/assets/vendors/flag-icon-css/css/flag-icon.min.dce17a5a5daf.css">
+    <link rel="stylesheet" href="../../../static/app/assets/vendors/ti-icons/css/themify-icons.165f5405ee6e.css">
+    <link rel="stylesheet" href="../../../static/app/assets/vendors/typicons/typicons.b6d37cdbf2c1.css">
+    <link rel="stylesheet" href="../../../static/app/assets/vendors/css/vendor.bundle.base.6f36b1309fbb.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="../../../static/app/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.1758e9d3c230.css">
+    <link rel="stylesheet" href="../../../static/app/assets/vendors/datatables.net-fixedcolumns-bs4/fixedColumns.bootstrap4.min.e63412369a60.css">
+    <link rel="stylesheet" href="../../../static/app/assets/vendors/jquery-toast-plugin/jquery.toast.min.be8a6c1b1899.css">
+    <!-- End Plugin css for this page -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../../../static/app/assets/css/demo_3/style.257451ebd40f.css">
+    <!-- End Layout styles -->
+    <link rel="shortcut icon" href="../../../static/app/images/favicon.54f7c0a8907c.png" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <link rel="stylesheet" href="../../../static/app/style.8d4e4dfb69ab.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+
+        .input-group-append .input-group-text,
+        .input-group-prepend .input-group-text,
+        .asColorPicker-trigger .input-group-text {
+            background: transparent;
+            border-color: #fff;
+        }
+
+        .chat-bubble.outgoing-chat .chat-message {
+            background: #ffaf00 !important;
+            margin-left: auto !important;
+            max-width: 80% !important;
+            margin-right: 0px !important;
+        }
+
+        .chat-bubble.incoming-chat .chat-message {
+            background: #151038 !important;
+            margin-right: auto !important;
+            max-width: 80% !important;
+            margin-left: 0px !important;
+        }
+
+        .myChat {
+            overflow: hidden;
+            top: -25px;
+            padding-bottom: 60px;
+            bottom: 0;
+            height: 550px !important;
+        }
+
+        .myChat .chat-container-wrapper {
+            overflow: scroll;
+            padding-bottom: 300px;
+        }
+
+        .myChat .chat-text-field {
+            position: fixed;
+            bottom: 55px;
+            z-index: 9999;
+        }
+
+        .xcoin {
+            width: 110px;
+            height: auto;
+        }
+
+        .border-bottom-m {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+        }
+
+
+        .sxcoin {
+            width: 60px;
+            height: auto;
+        }
+
+        .mt-minus-5 {
+            margin-top: -3px;
+        }
+
+        .fs-1 {
+            font-size: 10px;
+        }
+
+        #google_translate_element {
+            bottom: 25px;
+            left: 15px;
+        }
+
+        .goog-te-gadget {
+            font-family: Roboto, "Open Sans", sans-serif !important;
+            text-transform: uppercase;
+        }
+
+        .goog-te-gadget-simple {
+            background-color: #151038 !important;
+            border: 1px solid rgba(0, 0, 0, 0.5) !important;
+            padding: 1px !important;
+            border-radius: 4px !important;
+            font-size: 0.6rem !important;
+            line-height: 2rem !important;
+            display: inline-block;
+            cursor: pointer;
+            zoom: 1;
+            margin-bottom: 4px;
+        }
+
+        .goog-te-menu2 {
+            max-width: 100%;
+        }
+
+        .goog-te-menu-value {
+            color: #999999 !important;
+        }
+
+        .goog-te-menu-value:before {
+            font-family: 'Material Icons';
+            content: "\E927";
+            margin-right: 16px;
+            font-size: 1.2rem;
+            vertical-align: -10px;
+        }
+
+        .goog-te-menu-value span:nth-child(5) {
+            display: none;
+        }
+
+        .goog-te-menu-value span:nth-child(3) {
+            border: none !important;
+            font-family: 'Material Icons';
+        }
+
+        .goog-te-menu-value span:nth-child(3):after {
+            font-family: 'Material Icons';
+            content: "\E5C5";
+            font-size: 1.5rem;
+            vertical-align: -6px;
+        }
+
+        .goog-te-gadget-icon {
+            background-position: 0px 0px;
+            height: 32px !important;
+            width: 32px !important;
+            margin-right: 8px !important;
+            display: none;
+        }
+
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+        }
+
+
+        body {
+            top: 0px !important;
+        }
+
+        /* ================================== *\
+    Mediaqueries
+\* ================================== */
+        @media (max-width: 667px) {
+            #google_translate_element {}
+
+            #google_translate_element goog-te-gadget {}
+
+            #google_translate_element .skiptranslate {}
+
+            #google_translate_element .goog-te-gadget-simple {
+                text-align: center;
+            }
+        }
+
+
+        .input-group-append,
+        .input-group-prepend,
+        .asColorPicker-trigger {
+            background: #6608FE;
+            border-radius: 6px 0px 0px 6px !important;
+        }
+
+        .myBtn-custom {
+            color: #fff;
+            background-color: #6608FE;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 10px 15px;
+
+        }
+
+        .auth.theme-two .auto-form-wrapper .nav-get-started .get-started-btn {
+            border: 1px solid #fff;
+            color: #fff !important;
+        }
+
+
+        .auth.theme-two .auto-form-wrapper form .form-group .input-group .input-group-prepend .input-group-text,
+        .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .input-group-prepend .input-group-text,
+        .auth.theme-two .auto-form-wrapper form .form-group .input-group .asColorPicker-trigger .input-group-text,
+        .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .asColorPicker-trigger .input-group-text {
+            border-radius: 6px 0 0 6px;
+            border-color: #151038;
+            border-right: none;
+            color: #dfdfdf;
+        }
+
+
+        input[type="radio"][class="myRadio"] {
+            display: none;
+        }
+
+        .myLabel {
+            border: 0.5px solid #c7c7c7;
+            padding: 10px;
+            display: block;
+            position: relative;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        .myBorder {
+            border: 0.5px solid #c7c7c7 !important;
+            border-radius: 8px;
+        }
+
+        .myUl li b {
+            float: right;
+        }
+
+        .myLabel:before {
+            background-color: #19d895;
+            color: white;
+            content: " ";
+            display: block;
+            border-radius: 50%;
+            border: 1px solid #19d895;
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 28px;
+            transition-duration: 0.4s;
+            transform: scale(0);
+        }
+
+        .myLabel img {
+            height: auto;
+            width: 100%;
+            transition-duration: 0.2s;
+            transform-origin: 50% 50%;
+        }
+
+        .myRadio:checked+label {
+            border-color: #19d895;
+        }
+
+        .myRadio:checked+label:before {
+            content: "✓";
+            background-color: #19d895;
+            transform: scale(1);
+        }
+
+        .myRadio:checked+label img {
+            transform: scale(0.9);
+            /* box-shadow: 0 0 5px #333; */
+            z-index: -1;
+        }
+
+    </style>
+
+
+    <style>
+        .content-wrapper {
+            background: #151038;
+            padding-top: 0px;
+        }
+
+        .g-login {
+            border: 1px solid #383e5d;
+            padding: 13px;
+            font-size: 12px;
+            font-weight: 600;
+            background: transparent;
+        }
+
+        .soc {
+            width: 20px;
+        }
+
+        .bg-1 {
+            background-image: url(https://setrocobuild.site/account/user/img/bg-2.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 50% 50%;
+        }
+
+        .card {
+            background-color: #151038;
+        }
+
+        body {
+            background-color: #151038;
+            color: #999999;
+        }
+
+        p {
+            color: #999999;
+        }
+
+        .dropdown-menu .dropdown-item {
+            color: #999999;
+            background: #151038;
+        }
+
+        .dropdown-menu .dropdown-item:hover {
+            color: #999999;
+            background: #151038;
+        }
+
+        .modal .modal-dialog .modal-content {
+            background: #151038;
+        }
+
+        .card-title {
+            color: #999999 !important;
+        }
+
+        .big-title {
+            font-size: 25px !important;
+        }
+
+        .content-wrapper {
+            background: #151038;
+        }
+
+        .card .card-header {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .text-muted {
+            color: #999 !important;
+        }
+
+        .card-statistics .card-col {
+            border-right: 1px solid #151038 !important;
+        }
+
+        @media (max-width: 767.98px) {
+
+            .card-statistics .card-col:first-child:after,
+            .card-statistics .card-col:first-child:before,
+            .card-statistics .card-col:nth-child(2):after,
+            .card-statistics .card-col:nth-child(2):before,
+            .card-statistics .card-col:nth-child(3):after,
+            .card-statistics .card-col:nth-child(3):before {
+                background: #151038;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+
+            .card-statistics .card-col:first-child:after,
+            .card-statistics .card-col:first-child:before,
+            .card-statistics .card-col:nth-child(2):after,
+            .card-statistics .card-col:nth-child(2):before,
+            .card-statistics .card-col:nth-child(3):after,
+            .card-statistics .card-col:nth-child(3):before {
+                background: #151038;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .card-statistics .card-col {
+                border: none;
+            }
+        }
+
+        .active-p {
+            color: #fcb42d !important;
+        }
+
+        .sidebar {
+            background: -webkit-gradient(linear, left bottom, left top, from(#151038), to(#151038));
+            background: linear-gradient(to top, #151038, #151038);
+        }
+
+        .sidebar>.nav .nav-item.nav-profile .nav-link {
+            border: 1px solid rgba(0, 0, 0, 0.11);
+            color: #999999 !important;
+        }
+
+        .sidebar>.nav .nav-item.nav-profile .nav-link .profile-name {
+            color: #999999 !important;
+        }
+
+        .sidebar>.nav .nav-item .nav-link {
+            color: #999999 !important;
+        }
+
+        .sidebar>.nav .nav-item.nav-profile .nav-link .designation {
+            color: #999999;
+        }
+
+        .clickable:hover {
+            cursor: pointer;
+        }
+
+        .table tbody td,
+        .jsgrid .jsgrid-table tbody td {
+            border-top-color: #151038;
+        }
+
+        input,
+        select,
+        textarea {
+            background-color: #151038 !important;
+            color: #999999 !important;
+            padding: 12px 7px !important;
+            height: auto !important;
+            border: 1px #999 solid !important;
+            font-size: 14px !important;
+        }
+
+        .auth.theme-two .auto-form-wrapper form .form-group .submit-btn {
+            font-size: 15px;
+            padding: 12px 33px;
+            background-image: linear-gradient(90deg, #151038, #fd7e42, #fd7e42);
+            border-color: #fd7e42 !important;
+        }
+
+    </style>
+
+    <style>
+        .bottom-menu {
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #151038;
+            border-top: 1px solid #252526;
+            z-index: 1;
+        }
+
+        .bottom-menu a {
+            width: 20%;
+            float: left;
+            display: block;
+            color: inherit;
+            text-align: center;
+            padding: 10px 12px;
+            text-decoration: none;
+            font-size: 10px;
+        }
+
+        .bottom-menu .active {
+            color: #1eaae7;
+        }
+
+        .bottom-menu a i {
+            font-size: 20px;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .bottom-menu a span {}
+
+
+
+        .icon-menu-3 a {
+            width: 33.3%;
+            float: left;
+            display: block;
+            color: inherit;
+            text-align: center;
+            padding: 10px 12px;
+            text-decoration: none;
+            font-size: 10px;
+        }
+
+        .icon-menu-3 .active {
+            color: #fb8c00;
+        }
+
+        .icon-menu-3 a i {
+            font-size: 20px;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+    </style>
+</head>
+
+<body class="dark-theme">
+
+    
+
+<div class="container-scroller">
+  <div class="container-fluid page-body-wrapper full-page-wrapper">
+      <div class="content-wrapper auth p-0 theme-two">
+          <div class="row d-flex align-items-stretch">
+              <div class="col-12 col-md-12 h-100 card">
+                  <div class="auto-form-wrapper d-flex align-items-center justify-content-center flex-column">
+                      <div class="nav-get-started">
+                          <p>Don't have an account?</p>
+                          <a class="btn get-started-btn text-dark" href="../signup/index.html">GET STARTED</a>
+                      </div>
+
+
+
+
+
+<form method=post action="index.html" name=mainform>
+<a href='../../../index.html'>
+<img alt="" src="../../../static/logo.ae9ebaa903ab.png" style='height: 30px; width: auto;'>
+</a>
+
+<input type="hidden" name="csrfmiddlewaretoken" value="pkY9pc59fBKtakewJuN3fxwAC5u8uBSpFsmF9qo83xSpEvinMbjCEj9rqQsBe8s0">
+<br />
+
+
+<h3 class="mt-3 mr-auto">Welcome</h3>
+<p class="mr-auto">Enter your details below.</p>
+
+
+<div class="form-group">
+<div class="input-group">
+   <div class="input-group-prepend">
+       <span class="input-group-text">
+           <i class="fa fa-user"></i>
+       </span>
+   </div>
+   <input type="text" name="username" maxlength="50" placeholder="Username*" class="form-control" required id="id_username">
+</div>
+</div>
+<div class="form-group">
+<div class="input-group">
+   <div class="input-group-prepend">
+       <span class="input-group-text">
+           <i class="fa fa-lock"></i>
+       </span>
+   </div>
+   <input type="password" name="password" maxlength="50" class="form-control" placeholder="Password*" required id="id_password"></div>
+</div>
+<p class='text-warning'><a href="../../password_reset/index.html">Forgot Password?</a></p>
+<div class="form-group">
+<button type="submit" name="login" class="btn btn-block myBtn-custom">SIGN IN <i class="fa fa-sign-in"></i></button>
+</div> 
+
+<div class="wrapper mt-2 text-gray">
+<p class="footer-text">Copyright © 2022 Setroco Build. All rights reserved.</p>
+<ul class="auth-footer text-gray">
+   <li>
+       <a href="../../../about-us/index.html">About Us</a>
+   </li>
+   <li>
+       <a href="../../../terms-and-conditions/index.html">Terms & Conditions</a>
+   </li>
+</ul>
+</div>
+<br>
+<div id="google_translate_element"></div>
+</form> 
+</div>
+</div>
+</div>
+</div>
+<!-- content-wrapper ends -->
+</div>
+<!-- page-body-wrapper ends -->
+</div>
+
+
+    <script type="text/javascript"> 
+        function googleTranslateElementInit() { 
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'}, 
+                'google_translate_element'
+            ); 
+        } 
+    </script>
+     <!-- Google tranlator -->
+     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+    <!-- Flag click handler -->
+    <script type="text/javascript">
+        $('.translation-links a').click(function() {
+            var lang = $(this).data('lang');
+            var $frame = $('.goog-te-menu-frame:first');
+            if (!$frame.size()) {
+                alert("Error: Could not find Google translate frame.");
+                return false;
+            }
+            $frame.contents().find('.goog-te-menu2-item span.text:contains(' + lang + ')').get(0).click();
+            return false;
+        });
+
+    </script>
+
+
+    <!--Start of Tawk.to Script-->
+
+    <!--End of Tawk.to Script-->
+
+    <script src="../../../static/app/assets/vendors/js/vendor.bundle.base.e3a9d9d0c4d2.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="../../../static/app/assets/vendors/chart.js/Chart.min.b235b564de9c.js"></script>
+    <script src="../../../static/app/assets/vendors/jvectormap/jquery-jvectormap.min.5bc515549418.js"></script>
+    <script src="../../../static/app/assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.9b13fed64f6d.js"></script>
+    <script src="../../../static/app/assets/vendors/justgage/raphael-2.1.4.min.e51377608a27.js"></script>
+    <script src="../../../static/app/assets/vendors/justgage/justgage.629c2582cfb6.js"></script>
+    <!-- End plugin js for this page -->
+
+    <script src="../../../static/app/assets/vendors/datatables.net/jquery.dataTables.2ead29c9d185.js"></script>
+    <script src="../../../static/app/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.73bd54551128.js"></script>
+    <script src="../../../static/app/assets/vendors/datatables.net-fixedcolumns/dataTables.fixedColumns.min.0f59292c0eaf.js"></script>
+    <!-- inject:js -->
+    <script src="../../../static/app/assets/js/shared/off-canvas.8448c4ec1338.js"></script>
+    <script src="../../../static/app/assets/js/shared/hoverable-collapse.68338aa865f7.js"></script>
+    <script src="../../../static/app/assets/js/shared/misc.eb871d61f51b.js"></script>
+    <script src="../../../static/app/assets/js/shared/settings.9c9159f05f52.js"></script>
+    <script src="../../../static/app/assets/js/shared/todolist.4204b5b00ece.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="../../../static/app/assets/js/demo_1/dashboard.92bbfa519e9d.js"></script>
+
+    <script src="../../../static/app/assets/js/shared/data-table.9c92ee5db5d0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/js/fontawesome.js"></script>
+    <script>
+        $(function() {
+            'use strict';
+
+            $('#datatable1').DataTable({
+                responsive: true,
+                language: {
+                    searchPlaceholder: 'Search...',
+                    sSearch: '',
+                    lengthMenu: '_MENU_ items/page',
+                }
+            });
+
+            $('#datatable2').DataTable({
+                bLengthChange: false,
+                searching: false,
+                responsive: true
+            });
+
+            // Select2
+            $('.dataTables_length select').select2({
+                minimumResultsForSearch: Infinity
+            });
+
+        });
+
+        function hide_element(x) {
+            document.querySelector(x).style.display = 'none';
+        }
+
+        function show_element(x) {
+            document.querySelector(x).style.display = 'block';
+        }
+
+
+
+        function copy_ref(data, btn) {
+            var copyText = document.getElementById(data);
+            copyText.select();
+            document.execCommand("copy");
+            $(btn).addClass('btn-success');
+            $(btn).html('Copied <i class="fa fa-copy"></i> ');
+
+        }
+
+        function clickableRow(url) {
+            window.location.href = url;
+        }
+
+    </script>
+
+    <script>
+        // WORK IN PROGRESS BELOW
+
+        $('document').ready(function() {
+
+
+            // RESTYLE THE DROPDOWN MENU
+            $('#google_translate_element').on("click", function() {
+
+                // Change font family and color
+                $("iframe").contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
+                    .css({
+                        'color': '#544F4B',
+                        'font-family': 'Roboto',
+                        'width': '100%'
+                    });
+                // Change menu's padding
+                $("iframe").contents().find('.goog-te-menu2-item-selected').css('display', 'none');
+
+                // Change menu's padding
+                $("iframe").contents().find('.goog-te-menu2').css('padding', '0px');
+
+                // Change the padding of the languages
+                $("iframe").contents().find('.goog-te-menu2-item div').css('padding', '20px');
+
+                // Change the width of the languages
+                $("iframe").contents().find('.goog-te-menu2-item').css('width', '100%');
+                $("iframe").contents().find('td').css('width', '100%');
+
+                // Change hover effects
+                $("iframe").contents().find(".goog-te-menu2-item div").hover(function() {
+                    $(this).css('background-color', '#151038').find('span.text').css('color', 'white');
+                }, function() {
+                    $(this).css('background-color', 'white').find('span.text').css('color', '#544F4B');
+                });
+
+                // Change Google's default blue border
+                $("iframe").contents().find('.goog-te-menu2').css('border', 'none');
+
+                // Change the iframe's box shadow
+                $(".goog-te-menu-frame").css('box-shadow', '0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3)');
+
+
+
+                // Change the iframe's size and position?
+                $(".goog-te-menu-frame").css({
+                    'height': '100%',
+                    'width': '100%',
+                    'top': '0px'
+                });
+                // Change iframes's size
+                $("iframe").contents().find('.goog-te-menu2').css({
+                    'height': '100%',
+                    'overflow': 'scroll',
+                    'width': '100%'
+                });
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

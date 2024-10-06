@@ -1,0 +1,1095 @@
+
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+<style>
+    .goog-logo-link {
+        display: none !important;
+    }
+
+    .goog-te-gadget {
+        color: transparent !important;
+    }
+
+    .goog-te-gadget .goog-te-combo {
+        color: black !important;
+    }
+</style>
+
+<head>
+    <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '398cc98b857216f8459ed920b0e1c371a84b2b30';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script>
+    <noscript> Powered by <a href="https://setrocobuild.site/%C3%A2%E2%82%AC%C5%93https://www.smartsupp.com%C3%A2%E2%82%AC%C2%9D" target=“_blank”>Smartsupp</a></noscript>
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#151038" />
+    <!-- Site Properties -->
+    <title>Setroco Build |  Legal </title>
+
+
+    <!-- critical preload -->
+    <link rel="stylesheet" href="static/app/js/vendors/uikit.min.954cbff6b7f9.js">
+    <!-- icon preload -->
+    <link rel="stylesheet" href="static/app/fonts/fa-brands-400.f7307680c7fe.woff2" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="static/app/fonts/fa-solid-900.e8a427e15cc5.woff2" type="font/woff2" crossorigin>
+    <!-- font preload -->
+    <link rel="stylesheet" href="static/app/fonts/archivo-v9-latin-regular.2c86cd470c4a.woff2" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="static/app/fonts/archivo-v9-latin-300.5a622427afd3.woff2" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="static/app/fonts/archivo-v9-latin-700.441c6046b217.woff2" type="font/woff2" crossorigin>
+    <!-- Favicon and apple icon -->
+    <link rel="shortcut icon" href="static/app/images/favicon.54f7c0a8907c.png" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="static/app/images/favicon.54f7c0a8907c.png">
+    <!-- css -->
+    <link rel="stylesheet" href="static/app/css/vendors/uikit.min.6ef4352bdab6.css">
+    <link rel="stylesheet" href="static/app/css/style.680d1491861b.css">
+
+    <style>
+        .myWhite {
+            color: #fff !important;
+        }
+
+        .my-white {
+            color: #fff !important;
+        }
+
+        .my-danger {
+            color: #ec4e70 !important;
+        }
+
+        .my-success {
+            color: #2db47f !important;
+        }
+
+        .myBgBlue {
+            background-color: #4886d9 !important;
+            color: #fff !important;
+        }
+
+        .myYello {
+            color: #6608FE !important;
+        }
+
+        .myBgYello {
+            background-color: #6608FE !important;
+            color: #fff !important;
+        }
+
+        .in-mobile-nav .uk-button {
+            font-size: 35px;
+            padding: 2px 16px;
+            color: #fff;
+            box-shadow: none;
+        }
+
+
+        .in-slideshow .in-slide-text {
+            margin-top: -20px;
+        }
+
+
+
+
+        .watkey {
+            z-index: 9;
+            position: fixed;
+            bottom: 15px;
+            left: 15px;
+            padding: 4px;
+            border: 1px solid #0d9f16;
+            border-radius: 50%;
+        }
+
+
+
+
+
+
+        #google_translate_element {
+            bottom: 25px;
+            left: 15px;
+        }
+
+        .goog-te-gadget {
+            font-family: Roboto, "Open Sans", sans-serif !important;
+            text-transform: uppercase;
+        }
+
+        .goog-te-gadget-simple {
+            background-color: rgba(0, 0, 0, 0.3) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
+            padding: 1px !important;
+            border-radius: 4px !important;
+            font-size: 0.8rem !important;
+            line-height: 2rem !important;
+            display: inline-block;
+            cursor: pointer;
+            zoom: 1;
+            margin-bottom: 4px;
+        }
+
+        .goog-te-menu2 {
+            max-width: 100%;
+        }
+
+        .goog-te-menu-value {
+            color: #fff !important;
+        }
+
+        .goog-te-menu-value:before {
+            font-family: 'Material Icons';
+            content: "\E927";
+            margin-right: 16px;
+            font-size: 1.2rem;
+            vertical-align: -10px;
+        }
+
+        .goog-te-menu-value span:nth-child(5) {
+            display: none;
+        }
+
+        .goog-te-menu-value span:nth-child(3) {
+            border: none !important;
+            font-family: 'Material Icons';
+        }
+
+        .goog-te-menu-value span:nth-child(3):after {
+            font-family: 'Material Icons';
+            content: "\E5C5";
+            font-size: 1.5rem;
+            vertical-align: -6px;
+        }
+
+        .goog-te-gadget-icon {
+            background-position: 0px 0px;
+            height: 32px !important;
+            width: 32px !important;
+            margin-right: 8px !important;
+            display: none;
+        }
+
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+        }
+
+
+        body {
+            top: 0px !important;
+        }
+
+        /* ================================== *\
+    Mediaqueries
+\* ================================== */
+        @media (max-width: 667px) {
+            #google_translate_element {}
+
+            #google_translate_element goog-te-gadget {}
+
+            #google_translate_element .skiptranslate {}
+
+            #google_translate_element .goog-te-gadget-simple {
+                text-align: center;
+            }
+        }
+    </style>
+
+    <style>
+        #flipper {
+            position: absolute;
+            right: 50px;
+            top: 150px;
+            width: 45%;
+            z-index: 1;
+            padding: 50px 5px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            #flipper {
+                right: 25px;
+                top: 62px;
+                width: 60px;
+            }
+        }
+
+
+        .flip-box {
+            perspective: 1000px;
+        }
+
+        #modal-full {
+            background-color: #151038 !important;
+            background: #151038 !important;
+        }
+
+        .in-faq-2 .uk-accordion-title .uk-card-default::after {
+            content: "";
+        }
+
+        .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 1.5s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-box-front {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+
+        .flip-box-back {
+            transform: rotateY(180deg);
+        }
+
+
+        .roundDiv {
+            position: absolute;
+            right: -26px;
+            text-align: center;
+            top: 118px;
+            width: 45%;
+            z-index: 9;
+            padding: 50px 5px;
+        }
+
+        .roundCoin {
+            border: 5px dotted transparent;
+            border-radius: 50%;
+            border-top: 5px dotted #6608FE;
+            border-bottom: 5px dotted #6608FE;
+            width: 400px;
+            height: 400px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+
+
+
+        @media only screen and (max-width: 768px) {
+            .roundDiv {
+                position: absolute;
+                right: 20px;
+                text-align: center;
+                top: 90px;
+                width: 80px;
+                z-index: 9;
+                padding: 50px 5px;
+            }
+
+            .roundCoin {
+                border: 5px dotted transparent;
+                border-radius: 50%;
+                border-top: 3px dotted #6608FE;
+                border-bottom: 3px dotted #6608FE;
+                width: 75px;
+                height: 75px;
+            }
+        }
+
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes spinBack {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(-360deg);
+            }
+        }
+
+        @keyframes spinBack {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+
+        .check-star {
+            color: #6608FE;
+        }
+
+        .in-slide-text {
+            text-align: left !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="in-loader" style="background-color: #151038;">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <header style="background-color: #151038;">
+        <!-- header content begin -->
+        <div class="uk-section uk-padding-remove-vertical" style="z-index: 10;">
+            <nav class="uk-navbar-container uk-navbar-transparent">
+
+                <div class="uk-container" data-uk-navbar>
+                    <div class="uk-navbar-left">
+                        <div class="uk-navbar-item">
+                            <!-- logo begin -->
+                            <div>
+                                <div id="google_translate_element"></div>
+                                <a class="uk-logo" href="index.html">
+                                    <img src="static/logo.ae9ebaa903ab.png" data-src="/static/logo.ae9ebaa903ab.png" alt=""
+                                        width="146" height="39" data-uk-img>
+                                </a>
+                            </div>
+                            <!-- logo end -->
+                            <!-- navigation begin -->
+                            <ul class="uk-navbar-nav uk-visible@m">
+                                <li><a style="color: #6608FE;" href="legal#">Company<i class="fas fa-chevron-down"></i></a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li><a href="about-us/index.html">About Us</a></li>
+
+                                            <li><a href="frequently-asked-questions/index.html">FAQ's</a></li>
+
+                                            <li><a href="contact-us/index.html">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li><a href="market-place/index.html">Markets</a></li>
+
+                                <li><a href="investment-plans/index.html">Plans</a></li>
+
+                                <li><a href="our-services/index.html">Our Services</a></li>
+
+                                <li><a href="buy-and-sell/index.html">Buy/Sell</a></li>
+
+                                <li><a href="legal">Legal</a></li>
+                                <li><a href="account/user/signup/index.html">Register</a></li>
+                                <li><a href="account/user/login/index.html">Login</a></li>
+                            </ul>
+                            <!-- navigation end -->
+                        </div>
+                    </div>
+                    <!--<div class="uk-navbar-right">-->
+                    <!--    <div class="uk-navbar-item uk-visible@m ">-->
+
+                    <!--        <a style="background-color: #6608FE;" href="/account/user/signup/" class="uk-button uk-button-primary uk-border-rounded">Sign-->
+                    <!--            up<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>-->
+
+                    <!--    </div>-->
+                    <!--</div>-->
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    
+
+<div class="uk-section uk-section-secondary uk-preserve-color uk-background-contain uk-background-center in-equity-15" data-src="static/app/img/in-equity-decor-1.svg" data-uk-img>
+    <div class="uk-container">
+        <div class="uk-width-3-3@m">
+            <div data-uk-grid="" class="uk-grid">
+                <div class="uk-width-1-2@s uk-width-2-3@m uk-first-column">
+                    <h1 class="uk-margin-remove myWhite">Legal Information</h1>
+                    <p class="uk-text-lead uk-text-muted uk-margin-small-top">
+                        Fidelity is our watchword </p>
+                </div>
+                <div class="uk-width-1-2@s uk-width-expand@m">
+                    <ul class="uk-list uk-list-large ">
+                        <li>
+                            <div class="uk-flex uk-flex-middle">
+                                <i class="fas fa-exchange-alt fa-lg in-icon-wrap primary-color uk-margin-right"></i>
+                                <div>
+                                    <h2 class="uk-margin-remove-bottom uk-text-muted">$ 91<span class="myYello" style="font-size: 20px;">Million+</span></h2>
+                                    <span class="uk-label  in-label-small">Total Transactions</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-middle">
+                                <i class="fas fa-user-tie fa-lg in-icon-wrap primary-color uk-margin-right"></i>
+                                <div>
+                                    <h2 class="uk-margin-remove-bottom uk-text-muted">49.6<span class="myYello" style="font-size: 20px;">Thousand+</span></h2>
+                                    <span class="uk-label in-label-small">Active Investors</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main>
+
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-grid uk-flex uk-flex-center">
+                <div class="uk-width-4-5@m">
+                    <h1 class="uk-margin-remove">Our <span class="in-highlight">Legal Information</span></h1><br>
+                    <div class="uk-text-large">
+                        Setroco Build is one of the most reliable diversified financial investment service
+                        provider in the world. Our fundamental mission is to help customers and clients achieve
+                        their financial objectives. With offices locate in the United States, Australia,Canada and
+                        headquartered in United States, Setroco Build have staffs with over 30 years’ experience in
+                        combining financial development and trades. We are committed to pushing the boundaries of
+                        what constitutes the highest standards in trades and asset management.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="uk-section uk-padding-remove-vertical uk-margin-medium-top uk-margin-medium-bottom">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <div class="uk-width-1-1 in-card-16">
+                    <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                        <div class="uk-grid uk-flex-middle" data-uk-grid="">
+                            <div class="uk-width-1-1 uk-width-expand@m uk-first-column">
+                                <h5>We are an international financial company engaged in investment activities, which are related to
+                                    trading on financial markets and cryptocurrency exchanges performed by qualified professional traders.
+                                </h5>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a style="background-color: #151038; color: #fff;" class="uk-button uk-button-primary uk-border-rounded" target="_blank" href="static/setroco_cert.04edff181b43.png">View Certificate</a>
+                            </div>
+                                                        <div class="uk-width-auto">
+                                <a style="background-color: #151038; color: #fff;" class="uk-button uk-button-primary uk-border-rounded" target="_blank" href="static/setroco_insur.b944dd31e433.png">Insurance</a>
+                            </div>
+                                                        <div class="uk-width-auto">
+                                <a style="background-color: #151038; color: #fff;" class="uk-button uk-button-primary uk-border-rounded" target="_blank" href="static/setroco_inco.2c09499be44c.png">Incoporation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <div class="uk-card uk-card-secondary uk-box-shadow-small uk-border-rounded uk-background-cover" style="background-image: url(static/app/img/blockit/in-card-background-1.jpg);">
+                        <div class="uk-card-body">
+                            <h2 class="uk-margin-remove-bottom">Do You Have Any Questions?</h2>
+                            <p class="uk-margin-small-top">We are delighted to help you in getting the best out of our services.</p>
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="frequently-asked-questions/index.html">Ask us a question</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            <div class="uk-section in-equity-11 uk-background-contain uk-background-top-right" data-src="img/in-equity-11-bg.png" data-uk-img="" style="background-image: url(https://setrocobuild.site/&quot;https://www.indonez.com/html-demo/Equity/img/in-equity-11-bg.png&quot;);">
+            <div class="uk-container uk-margin-top uk-margin-bottom">
+                <div class="uk-width-3-3@m">
+                    <div class="uk-grid-medium uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s uk-grid" data-uk-grid="">
+                        <div class="uk-width-1-1 uk-first-column">
+                            <h1 class="uk-margin-small-bottom">Trade the world’s most <span class="in-highlight">popular markets</span></h1>
+                            <p class="uk-text-lead uk-margin-remove-top">Find your next trade with access to a wide range of markets.</p>
+                        </div>
+
+                        <a href="legal#" style="text-decoration: none;">
+                            <div class="uk-grid-margin uk-first-column">
+                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-medium">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div class="uk-margin-right">
+                                            <img src="https://setrocobuild.site/img/in-equity-11-icon-1.svg" data-src="/static/app/img/in-equity-11-icon-1.bf57e9d1a1e4.svg" alt="icon-1" width="128" data-height="" data-uk-img="">
+                                        </div>
+                                        <div>
+                                            <h5 class="uk-margin-small-bottom">Forex</h5>
+                                            <p class="uk-text-small uk-margin-remove">Trade 40+ major, minor, and exotic currency pairs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="legal#" style="text-decoration: none;">
+                            <div class="uk-grid-margin">
+                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-medium">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div class="uk-margin-right">
+                                            <img src="static/app/img/in-equity-11-icon-2.fe011b821ea3.svg" data-src="/static/app/img/in-equity-11-icon-2.fe011b821ea3.svg" alt="icon-2" width="128" data-height="" data-uk-img="">
+                                        </div>
+                                        <div>
+                                            <h5 class="uk-margin-small-bottom">Indices</h5>
+                                            <p class="uk-text-small uk-margin-remove">Trade 15 of the most famous global indices as CFDs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="legal#" style="text-decoration: none;">
+                            <div class="uk-grid-margin">
+                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-medium">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div class="uk-margin-right">
+                                            <img src="static/app/img/in-equity-11-icon-3.884160f0febb.svg" data-src="/static/app/img/in-equity-11-icon-3.884160f0febb.svg" alt="icon-3" width="128" data-height="" data-uk-img="">
+                                        </div>
+                                        <div>
+                                            <h5 class="uk-margin-small-bottom">Stocks</h5>
+                                            <p class="uk-text-small uk-margin-remove">Trade the most covered &amp; highest-profile asset classes</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="legal#" style="text-decoration: none;">
+                            <div class="uk-grid-margin uk-first-column">
+                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-medium">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div class="uk-margin-right">
+                                            <img src="static/app/img/in-equity-11-icon-4.d59e961341c6.svg" data-src="/static/app/img/in-equity-11-icon-4.d59e961341c6.svg" alt="icon-4" width="128" data-height="" data-uk-img="">
+                                        </div>
+                                        <div>
+                                            <h5 class="uk-margin-small-bottom">Metals</h5>
+                                            <p class="uk-text-small uk-margin-remove">Trade metals including Gold and Silver</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="legal#" style="text-decoration: none;">
+                            <div class="uk-grid-margin">
+                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-medium">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div class="uk-margin-right">
+                                            <img src="static/app/img/in-equity-11-icon-5.d0be11a61248.svg" data-src="/static/app/img/in-equity-11-icon-5.d0be11a61248.svg" alt="icon-5" width="128" data-height="" data-uk-img="">
+                                        </div>
+                                        <div>
+                                            <h5 class="uk-margin-small-bottom">Cryptos</h5>
+                                            <p class="uk-text-small uk-margin-remove">Trade Bitcoin, Ethereum, Ripple and others.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="legal#" style="text-decoration: none;">
+                            <div class="uk-grid-margin">
+                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-medium">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <div class="uk-margin-right">
+                                            <img src="static/app/img/in-equity-11-icon-6.8117c9c60110.svg" data-src="/static/app/img/in-equity-11-icon-6.8117c9c60110.svg" alt="icon-6" width="128" data-height="" data-uk-img="">
+                                        </div>
+                                        <div>
+                                            <h5 class="uk-margin-small-bottom">Energies</h5>
+                                            <p class="uk-text-small uk-margin-remove">Trade Brent Crude Oil, WTI, Natural Gas and Coal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="uk-section in-equity-3 in-offset-top-20 uk-margin-top">
+        <div class="uk-container uk-margin-large-bottom">
+            <div class="uk-grid uk-flex uk-flex-middle">
+                <div class="uk-width-expand@m">
+                    <h1 class="uk-margin-small-bottom">Choose an <span class="in-highlight">investment product</span> that is suitable for you</h1>
+                    <h3 class="uk-margin-top uk-text-muted">Best market prices available so you can receive excellent conditions.</h3>
+
+
+                </div>
+                <div class="uk-width-2xlarge uk-flex uk-flex-right uk-flex-center@s">
+                    <div class="uk-card uk-card-body uk-card-default uk-border-rounded in-margin-top-60@s">
+                        <!-- TradingView Widget BEGIN -->
+                        <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                                {
+                                    "colorTheme": "light",
+                                    "dateRange": "12M",
+                                    "showChart": false,
+                                    "locale": "en",
+                                    "width": "100%",
+                                    "height": "360",
+                                    "largeChartUrl": "",
+                                    "isTransparent": false,
+                                    "showSymbolLogo": true,
+                                    "showFloatingTooltip": false,
+                                    "tabs": [{
+                                        "title": "Forex",
+                                        "symbols": [{
+                                                "s": "FX:EURUSD"
+                                            },
+                                            {
+                                                "s": "FX:GBPUSD"
+                                            },
+                                            {
+                                                "s": "FX:USDJPY"
+                                            },
+                                            {
+                                                "s": "FX:USDCHF"
+                                            },
+                                            {
+                                                "s": "FX:AUDUSD"
+                                            },
+                                            {
+                                                "s": "FX:USDCAD"
+                                            }
+                                        ],
+                                        "originalTitle": "Forex"
+                                    }]
+                                }
+
+                            </script>
+                        </div>
+                        <!-- TradingView Widget END -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+ 
+
+
+
+
+    <div class="uk-section uk-section-primary uk-preserve-color in-equity-14 uk-background-contain uk-background-top-center"
+        data-src="/static/app/img/in-equity-11-icon-3.884160f0febb.svg" data-uk-img="">
+        <div class="uk-container uk-margin-small-bottom">
+            <div class="uk-child-width-1-2@m uk-flex uk-flex-middle uk-grid" data-uk-grid="">
+                <div class="uk-first-column">
+                    <div class="uk-flex uk-flex-left uk-flex-middle">
+                        <div class="uk-margin-right in-award-logo">
+                            <img src="static/app/img/in-lazy.41385ba97e8e.gif" data-src="/static/app/img/in-lazy.41385ba97e8e.gif" alt="award" width="128"
+                                data-height="" data-uk-img="">
+                        </div>
+                        <div class="in-award-badge">
+                            <h3 class="uk-margin-remove">Investors #1 Choice</h3>
+                            <h4 class="uk-margin-remove-top uk-margin-small-bottom uk-text-uppercase in-heading-thin">
+                               Setroco Build</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-right uk-flex-middle right-content">
+                    <span class="uk-margin-large-left">
+                        <a href="account/user/signup/index.html"
+                            class="uk-button uk-button-secondary uk-button-large uk-border-rounded">Open your
+                            account</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-section in-equity-18">
+        <div class="uk-container">
+            <div class="uk-grid uk-grid-stack" data-uk-grid="">
+                <div class="uk-width-1-1 uk-first-column">
+                    <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                        <h4 class="uk-text-center in-offset-top-10">Fast and reliable withdrawal/deposit method</h4>
+                        <div class="uk-grid-collapse uk-child-width-1-5@m uk-child-width-1-5 uk-text-center in-client-logo-6 uk-grid uk-grid-stack"
+                            data-uk-grid="">
+                            <div class="uk-tile uk-tile-default uk-first-column" style="border: none;">
+                                <img class="uk-margin-remove" src="static/app/images/coins/btc.fdece395439d.png" alt="" width="60" height="60">
+                            </div>
+                            <div class="uk-tile uk-tile-default uk-grid-margin uk-first-column" style="border: none;">
+                                <img class="uk-margin-remove" src="static/app/images/coins/eth.7842668af428.png" alt="" width="60" height="60">
+                            </div>
+                            <div class="uk-tile uk-tile-default uk-grid-margin uk-first-column" style="border: none;">
+                                <img class="uk-margin-remove" src="static/app/images/coins/ltc.12144468142b.png" alt="" width="60" height="60">
+                            </div>
+                            <div class="uk-tile uk-tile-default uk-grid-margin uk-first-column" style="border: none;">
+                                <img class="uk-margin-remove" src="static/app/images/coins/usdt.a440d4b512f4.png" alt="" width="60" height="60">
+                            </div>
+                            <div class="uk-tile uk-tile-default uk-grid-margin uk-first-column" style="border: none;">
+                                <img class="uk-margin-remove" src="static/app/images/coins/xrp.9b9c7558a9ba.png" alt="" width="60" height="60">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="uk-section" style="padding-bottom: 0px; padding-top: 0px;">
+            <div class="uk-container ">
+                <div class="uk-grid">
+                    <div class="uk-width-1-1">
+                        <div class="uk-child-width-1-1" data-uk-grid>
+                            <div>
+                                <a class="uk-logo" href="index.html">
+                                    <img src="static/logo.ae9ebaa903ab.png" data-src="/static/logo.ae9ebaa903ab.png" alt="" width="146" height="39"
+                                        data-uk-img>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer content begin -->
+        <div class="uk-section">
+            <div class="uk-container uk-margin-top">
+                <div class="uk-grid">
+                    <div class="uk-width-5-6@m">
+                        <div class="uk-child-width-1-2@s uk-child-width-1-4@m" data-uk-grid>
+                            <div>
+                                <h5 style="margin-bottom: -15px;">Our Company</h5>
+                                <ul class="uk-list uk-link-text">
+                                    <li><a href="about-us/index.html">About Us</a></li>
+                                    <li><a href="our-services/index.html">What We Offer</a></li>
+                                    <li><a href="frequently-asked-questions/index.html">FAQ's</a></li>
+                                    <li><a href="contact-us/index.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 style="margin-bottom: -15px;">Our Services</h5>
+                                <ul class="uk-list uk-link-text">
+                                    <li><a href="our-services/index.html">Forex Trading</a></li>
+                                    <li><a href="our-services/index.html">Real Estate</a></li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 style="margin-bottom: -15px;">Account</h5>
+                                <ul class="uk-list uk-link-text">
+                                    <li><a href="account/user/signup/index.html">Create Account</a></li>
+                                    <li><a href="account/user/login/index.html">Login</a></li>
+                                    <li><a href="account/password_reset/index.html">Forgot Password?</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-6@m uk-flex uk-flex-right@m">
+                        <!-- <ul class="uk-list uk-link-text in-footer-socials">
+                            <li><a href="https://wa.me/" class="wa-bg"><i class="fab fa-whatsapp"></i>Whatsapp</a></li>
+                            <!--li><a href="" class="tl-bg"><i class="fab fa-telegram-plane"></i>Telegram</a></li>
+                            <li><a href="#" class="myBgYello"><i class="fa fa-envelope"></i> Email</a></li>
+                            <li><a href="#" class="yt-bg"><i class="fab fa-youtube"></i>Youtube</a></li>
+                        </ul>-->
+                    </div>
+                </div>
+            </div>
+            <hr class="uk-margin-large">
+            <div class="uk-container">
+                <div class="uk-grid uk-flex uk-flex-middle">
+                    <div class="uk-width-2-3@m uk-text-small">
+                        <ul class="uk-subnav uk-subnav-divider uk-visible@s" data-uk-margin>
+                            <li><a href="terms-and-conditions/index.html">Terms of Use</a></li>
+                            <li><a href="terms-and-conditions/index.html">Privacy policy</a></li>
+                            <li><a href="legal">Legal</a></li>
+                            <li><a href="buy-and-sell/index.html">Buy Digital Currency</a></li>
+                        </ul>
+                        <p class="copyright-text">©2022 Setroco Build. All Rights Reserved.</p>
+                    </div>
+                    <div class="uk-width-1-3@m uk-flex uk-flex-right uk-visible@m">
+                        <span class="uk-margin-right"><img src="static/app/img/in-lazy.41385ba97e8e.gif" data-src="/static/app/images/coins/btc.fdece395439d.png" alt=""
+                                width="34" height="auto" data-uk-img></span>
+                        <span class="uk-margin-right"><img src="static/app/img/in-lazy.41385ba97e8e.gif" data-src="/static/app/images/coins/eth.7842668af428.png" alt=""
+                                width="34" height="auto" data-uk-img></span>
+                        <span class="uk-margin-right"><img src="static/app/img/in-lazy.41385ba97e8e.gif" data-src="/static/app/images/coins/ltc.12144468142b.png" alt=""
+                                width="34" height="auto" data-uk-img></span>
+                        <span class="uk-margin-right"><img src="static/app/img/in-lazy.41385ba97e8e.gif" data-src="/static/app/images/coins/xrp.9b9c7558a9ba.png" alt=""
+                                width="34" height="auto" data-uk-img></span>
+                        <span class=""><img src="static/app/img/in-lazy.41385ba97e8e.gif" data-src="/static/app/images/coins/usdt.a440d4b512f4.png" alt="" width="34"
+                                height="auto" data-uk-img></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer content end -->
+        <!-- totop begin -->
+        <!--div class="uk-visible@m">
+            <a href="#" class="in-totop fas fa-chevron-up" data-uk-scroll></a>
+        </div-->
+    </footer>
+
+
+    <script src="static/app/js/jquery-3.6.0.min.8fb8fee4fcc3.js"></script>
+    <script src="static/app/js/vendors/uikit.min.954cbff6b7f9.js"></script>
+    <script src="static/app/js/vendors/utilities.min.d3a8a868309c.js"></script>
+    <script src="static/app/js/vendors/trading-widget.min.d310e968405d.js"></script>
+    <script src="static/app/js/vendors/market-plugin.min.1266086bd47f.js"></script>
+    <script src="static/app/js/vendors/particles.min.d3fffe40ae2d.js"></script>
+    <script src="static/app/js/config-particles.379b25b7ee02.js"></script>
+    <script src="static/app/js/config-theme.ff231947ee82.js"></script>
+
+    <script>
+        $('document').ready(function () {
+            var x = 0;
+            setInterval(function () {
+                var coins = ['es.png', 'eth.html', 'ap.html', 'dash.html', 'gg.html', 'xrp.html', 'es.html', 'ltc.html', 'ms.html', 'btc.png'];
+                $('#coin').css('transform', 'rotateY(180deg)');
+                setTimeout(function () {
+                    $('#coinImage').attr('src', 'images/coins/' + coins[x] + '');
+                }, 430);
+                setTimeout(function () {
+                    $('#coin').css('transform', 'rotateY(0deg)');
+                }, 440);
+                x++;
+                if (x > (coins.length - 1)) {
+                    x = 0;
+                }
+            }, 4000);
+
+
+            var i = 0;
+            var b = 0;
+
+            setInterval(function () {
+                var msg = ['Stocks', 'CDFs on Fx', 'Real Estate', 'Oil and Gas', 'Cryptocurrency'];
+
+                if (b > (msg.length - 1)) {
+                    b = 0;
+                }
+                typeWriter(msg[b]);
+                b++;
+            }, 8000);
+
+            function typeWriter(x) {
+                console.log(x);
+                var speed = x.length / 0.09;
+                if (i < x.length) {
+                    document.getElementById("txt").innerHTML += x.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed, x);
+                } else {
+                    i = 0;
+                    x = '';
+                    setTimeout(function () {
+                        document.getElementById("txt").innerHTML = x;
+                    }, 5000);
+
+                }
+            }
+
+        });
+
+    </script>
+
+    <script type="text/javascript"> 
+        function googleTranslateElementInit() { 
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'}, 
+                'google_translate_element'
+            ); 
+        } 
+    </script>
+     <!-- Google tranlator -->
+     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+
+    <!-- Flag click handler -->
+    <script type="text/javascript">
+        $('.translation-links a').click(function () {
+            var lang = $(this).data('lang');
+            var $frame = $('.goog-te-menu-frame:first');
+            if (!$frame.size()) {
+                alert("Error: Could not find Google translate frame.");
+                return false;
+            }
+            $frame.contents().find('.goog-te-menu2-item span.text:contains(' + lang + ')').get(0).click();
+            return false;
+        });
+
+    </script>
+
+    <script>
+        function triggerClick(x) {
+            document.querySelector(x).click();
+        }
+
+    </script>
+
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("goUp");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+
+
+
+    <script>
+        function showTime() {
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+            var session = "AM";
+
+            if (h === 0) {
+                h = 12;
+            }
+
+            if (h > 12) {
+                h = h - 12;
+                session = "PM";
+            }
+
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+
+            var time = h + " : " + m + " : " + s + " " + session;
+            document.getElementById("MyClockDisplay").innerText = time;
+            document.getElementById("MyClockDisplay").textContent = time;
+
+            setTimeout(showTime, 1000);
+
+        }
+
+        showTime();
+
+        function btc_to_usd(valNum) {
+            var calc = valNum * 28993.14;
+            document.getElementById("val_usd").value = calc.toFixed(2);
+        }
+
+        function usd_to_btc(valNum) {
+            var calc = valNum / 28993.14;
+            document.getElementById("val_btc").value = calc.toFixed(8);
+        }
+    </script>
+
+    <script>
+        // WORK IN PROGRESS BELOW
+
+        $('document').ready(function () {
+
+
+            // RESTYLE THE DROPDOWN MENU
+            $('#google_translate_element').on("click", function () {
+
+                // Change font family and color
+                $("iframe").contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
+                    .css({
+                        'color': '#544F4B',
+                        'font-family': 'Roboto',
+                        'width': '100%'
+                    });
+                // Change menu's padding
+                $("iframe").contents().find('.goog-te-menu2-item-selected').css('display', 'none');
+
+                // Change menu's padding
+                $("iframe").contents().find('.goog-te-menu2').css('padding', '0px');
+
+                // Change the padding of the languages
+                $("iframe").contents().find('.goog-te-menu2-item div').css('padding', '20px');
+
+                // Change the width of the languages
+                $("iframe").contents().find('.goog-te-menu2-item').css('width', '100%');
+                $("iframe").contents().find('td').css('width', '100%');
+
+                // Change hover effects
+                $("iframe").contents().find(".goog-te-menu2-item div").hover(function () {
+                    $(this).css('background-color', '#4385F5').find('span.text').css('color', 'white');
+                }, function () {
+                    $(this).css('background-color', 'white').find('span.text').css('color', '#544F4B');
+                });
+
+                // Change Google's default blue border
+                $("iframe").contents().find('.goog-te-menu2').css('border', 'none');
+
+                // Change the iframe's box shadow
+                $(".goog-te-menu-frame").css('box-shadow', '0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3)');
+
+
+
+                // Change the iframe's size and position?
+                $(".goog-te-menu-frame").css({
+                    'height': '100%',
+                    'width': '100%',
+                    'top': '0px'
+                });
+                // Change iframes's size
+                $("iframe").contents().find('.goog-te-menu2').css({
+                    'height': '100%',
+                    'overflow': 'scroll',
+                    'width': '100%'
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
